@@ -1,0 +1,53 @@
+*{
+    margin:auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 40px;
+background-color: rgb(228, 227, 226);
+    width:calc(100% - 200px)
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.products{
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.productCard{
+    gap:30px;
+    border: solid 4px rgb(29, 76, 76);
+    box-shadow: gainsboro;
+    padding-bottom: 5px;
+}
+.product_info{
+    gap:20px;
+    border:solid 3px rgb(81, 77, 37)
+}
+.product_info th{
+padding-top: 10px;
+border:none;
+font-size: 20px;
+color: rgb(44, 32, 32);
+}
+.product_info td{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+color: rgb(83, 66, 66);
+}
+thead{
+    border:none;
+
+}
+tbody{
+    border: none;
+    background-color: rgba(155, 198, 144, 0.406);
+}
